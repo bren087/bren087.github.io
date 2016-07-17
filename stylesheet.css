@@ -1,109 +1,141 @@
-#container{height:801px;
-            width:1024px;
+
+.container{height:801px;
+            width:1200px;
             position:fixed;
+            margin-left:auto;
+            margin-right:auto;
 }
-#right{
-    Height:100%;
-    width:100%;
-    position:absolute; 
-    display:block;
+img{
     float:right;
-    background-color: white    
+    position:fixed;
+    left:780px;
+    bottom:650px;
 }
-#pic { float: right;
-        margin-right: 10%;
-        border: 10px;
-        border-color: darkgrey;
-        border-style: double;
-}
-    
-.freelance{ margin-left:27%;
-            display:block;
-}
-.freelance ul { list-style:none;
-                display:block;
-}
-.edu{margin-left:27%;
-            display:block;
-    margin-top:5%;}
-
-.edu ul { list-style:none;
-    display:block;}
-
-#disc{list-style:disc;}
-
-#video{ 
-margin-top: 9%;}
-
-#mag{margin-top: 4%;}
-
-#rogue{ margin-top:4%;}
-
-Ul{ font-family:futura;
-    font-size:14px;}
-.skill{display:block;
-    margin-top:5%;
-    margin-left:5%;}
-.header{margin-left:27%;;
-        display:block;
-        font-family: Futura;
-        
+.header{
+    margin-left:280px;
+    margin-right:auto;    
+    font-family: Futura, sans-serif;
+    width:750px;
     }
-.header h1 { Font-size: 25px
+.header h1 { 
+            Font-size: 36px;
             Font-style: Bold
+            color:black;
             margin-top:1px;
             margin-bottom:3px;
 }
-.header h3 {Font-size: 15px;
-            Color:darkgrey;
+.header h3 {
+            Font-size: 22px;
+            color:#4d4d4d;
             margin-top:3px;
-            margin-bottom:3px;}
-#left{
-    Height:100%;
-    width:25%;
+            margin-bottom:3px;
+            margin-left 5px;
+}
+
+.bottom{
+    border-bottom: 2px solid black;
+}
+
+.task{ 
+    list-style: disc;
+}
+    
+.jobs{      
+        margin-left:27%;
+        display:block;
+}
+.jobs ul { 
+        list-style:none;
+        
+}
+.video{ 
+    margin-top: 9%;
+}
+
+.mag{
+    margin-top: 4%;
+}
+
+.rogue{ 
+    margin-top:4%;
+}
+.edu{
+    margin-left:27%;
+    margin-top:5%;}
+
+.edu ul { 
+    list-style:none}
+
+ul{ font-family:futura;
+    font-size:14px;
+}
+.skill{
+    margin-top:55px;
+    margin-left:5%;
+}
+
+
+.employment{ 
+    font-family: Futura;
+    color: White;
+    text-align: right;
+    margin-right: 35px;
+    margin-top:135px;  
+
+}
+.date {
+    font-size: 12px;
+    margin-top: 30px;
+                }
+.employment h4{
+    margin-top:68px;
+}
+.employment h5{
+    margin-top:152px;
+}
+.education{ 
+    font-family: Futura;
+    color: White;
+    text-align: right;
+    margin-right: 35px;
+    margin-top:18%
+}
+.education h1, .employment h1, .skills h1{
+    font-size: 20px;
+    font-style:Bold;
+}
+.education h3{ 
+    font-size: 12px;
+    margin-top:30px;
+}
+
+.skills h1{
+    font-family: Futura;
+    color: White;
+    text-align: right;
+    margin-right: 35px;
+    margin-top:40px;
+           
+}
+.left{
     background-color:#999999;
-    position:absolute; 
-    display:block;
-    float:left;
+    position:fixed;
+    height:800px;
+    width:275px;
     
 }
-.employment{ font-family: Futura;
-            color: White;
-            text-align: right;
-            margin-right: 35px;
-            margin-top:50%;
-            margin-bottom: 20%;  
-
-}
-.employment H1{ font-size: 20px;
-    font-style:Bold;
-    margin-top:5%;
-}
-.employment H3{ font-size: 12px;
-                margin top:5%;
-}
-#july{font-size: 12px;
-                margin-top: 32%;
-                }
-#last{Font-size:12px;
-        margin-top:68%;}
-
-.education{ font-family: Futura;
-            color: White;
-            text-align: right;
-            margin-right: 35px;
-            margin-top:18%
-}
-.education H1{
-    font-size: 20px;
-    font-style:Bold;}
-.education h3{ font-size: 12px;}
-
-.skills h1{font-family: Futura;
-            color: White;
-            text-align: right;
-            margin-right: 35px;
-            margin-top:18%;
-            font-style: Bold;
-            font-size: 20px;
+.footer{
+    text-align: center;
+    font-family: Futura, sans-serif;
+    margin-top: 10px;
+    border-top: 2px solid black;
+}  
+a{ 
+    color:black;
+    text-decoration: none;
+    
+    }
+a:hover{
+    color:teal;
+    font-size: 24px;
 }
